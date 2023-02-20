@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+  margin-top: 10%;
+}
+
+form {
+  box-shadow: 0 0 0 5px #f1f1f1;
+  border-style: groove;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 20%;
+  background-color: rgba(245, 230, 230, 0.833);
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.container {
+  padding: 16px;
+}
+
+label {
+  font-weight: bold;
+}
+
+label.remember {
+  font-weight: normal;
+}
+
+span.pass {
+  float: right;
+  padding-top: 16px;
+}
+
+.viewlist {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.tablelist {
+  box-shadow: 0 0 0 5px #f1f1f1;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 20%;
+  background-color: rgba(245, 230, 230, 0.833);
+}
+
+.tablelist {
+  border-radius: 5px;
+  background-color: rgba(245, 230, 230, 0.833);
+  width: 79.5%;
+  color: black;
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 110px;
+  margin-right: 110px;
+  font-family: sans-serif;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.tablelist th {
+  padding: 8px;
+  text-align: center;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.tablelist td {
+  padding: 8px;
+  text-align: center;
+  border: 3px solid rgb(255, 255, 255);
+}
